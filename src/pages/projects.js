@@ -4,7 +4,19 @@ import Layout from "../components/layout"
 export default function Projects() {
   return (
     <Layout>
-      <h1>Projects placeholder</h1>
+      <div>
+        <h1
+          style={{
+            display: `inline-block`,
+            borderBottom: `1px solid`,
+          }}
+        >
+          Projects
+        </h1>
+        <div>
+          <h3>Something here</h3>
+        </div>
+      </div>
     </Layout>
   )
 }

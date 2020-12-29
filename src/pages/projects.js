@@ -8,7 +8,6 @@ export default function Projects() {
         <h1
           style={{
             display: `inline-block`,
-            borderBottom: `1px solid`,
           }}
         >
           Projects

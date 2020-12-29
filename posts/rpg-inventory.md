@@ -1,10 +1,6 @@
 ---
-title: "Sweet Pandas Eating Sweets"
-date: "2017-08-10"
----
-
-<span>Photo by <a href="https://unsplash.com/@rhii?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Rhii Photography</a> on <a href="https://unsplash.com/s/photos/sword?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
-
+title: "Building an RPG-Style Inventory with React (Part 1)"
+date: "2020-11-01"
 ---
 
 About a month ago, I decided I wanted to build a game. I wanted to make a game that required the player to code, but also played like an old-school RPG.

@@ -10,7 +10,6 @@ export default function Blog({ data }) {
         <h1
           style={{
             display: `inline-block`,
-            borderBottom: `1px solid`,
           }}
         >
           Blog

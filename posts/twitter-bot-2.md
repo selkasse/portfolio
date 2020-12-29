@@ -3,15 +3,13 @@ title: "Twitter Bot Part 2 : Securing API Keys"
 date: "2020-06-04"
 ---
 
-In [Part 1](https://www.theengine.tech/twitter-bot) of this post, we created a simple Twitter bot that quotes tweets from a given user.
+In [Part 1](/twitter-bot) of this post, we created a simple Twitter bot that quotes tweets from a given user.
 
 The bot itself works fine, but we do have one glaring issue: Security.
 
 You may have noticed that our API keys are shown in plain text right in our `bot.js` file.
 
 In this post, we're going to fix that using environment variables.
-
-The steps for this post are also available in a [YouTube video](https://youtu.be/r6yLeR2WJek).
 
 ## Understanding Environment Variables
 

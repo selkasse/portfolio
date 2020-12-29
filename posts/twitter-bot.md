@@ -7,8 +7,6 @@ In this post, we'll take a look at how to use Node.js, the Twitter API, Netlify,
 
 If you know how to create a Git repository, and have [Node.js](https://nodejs.org/en/) installed, you should be able to follow along just fine.
 
-If you would rather follow along with a video, I've also posted the solution to my [YouTube Channel](https://youtu.be/GdwIjtNZGBw).
-
 ## Create a Twitter developer account
 
 The first thing you're going to want to do is apply for a [Twitter Developer Account](https://developer.twitter.com/en).

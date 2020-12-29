@@ -3,7 +3,7 @@ title: "Twitter Bot Part 2 : Securing API Keys"
 date: "2020-06-04"
 ---
 
-In [Part 1](/twitter-bot) of this post, we created a simple Twitter bot that quotes tweets from a given user.
+In [Part 1](/blog/twitter-bot) of this post, we created a simple Twitter bot that quotes tweets from a given user.
 
 The bot itself works fine, but we do have one glaring issue: Security.
 

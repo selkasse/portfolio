@@ -18,7 +18,7 @@ export default function Blog({ data }) {
         {data.allMarkdownRemark.edges.map(({ node }) => (
           <div key={node.id}>
             <Link
-              to={node.fields.slug}
+              to={`/blog${node.fields.slug}`}
               style={{ textDecoration: `none`, color: `inherit` }}
             >
               <h3

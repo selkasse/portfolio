@@ -1,6 +1,7 @@
 import React from "react"
 import Layout from "../components/layout"
 import { graphql } from "gatsby"
+import Img from "gatsby-image"
 
 export const query = graphql`
   fragment SanityImage on SanityMainImage {
@@ -52,6 +53,9 @@ export const query = graphql`
             }
             asset {
               _id
+              fluid(maxWidth: 700) {
+                ...GatsbySanityImageFluid
+              }
             }
             alt
           }
@@ -69,7 +73,7 @@ export const query = graphql`
 export default function Projects({ data }) {
   const projectNodes = (data || {}).projects
   projectNodes.edges.forEach(edge => {
-    console.log(edge.node.title)
+    console.log(edge.node)
   })
   return (
     <Layout>
@@ -83,7 +87,10 @@ export default function Projects({ data }) {
         </h1>
         <div>
           {projectNodes.edges.map(edge => (
-            <h3>{edge.node.title}</h3>
+            <div>
+              <h3>{edge.node.title}</h3>
+              <Img fluid={edge.node.mainImage.asset.fluid} />
+            </div>
           ))}
         </div>
       </div>

@@ -68,7 +68,9 @@ export const query = graphql`
 
 export default function Projects({ data }) {
   const projectNodes = (data || {}).projects
-  console.log(projectNodes)
+  projectNodes.edges.forEach(edge => {
+    console.log(edge.node.title)
+  })
   return (
     <Layout>
       <div>
@@ -80,7 +82,9 @@ export default function Projects({ data }) {
           Projects
         </h1>
         <div>
-          <h3>Something here</h3>
+          {projectNodes.edges.map(edge => (
+            <h3>{edge.node.title}</h3>
+          ))}
         </div>
       </div>
     </Layout>

@@ -1,11 +1,27 @@
 import React from "react"
 import { graphql } from "gatsby"
 import Layout from "../components/layout"
+import Project from "../components/project"
 
 export default function ProjectPage({ data }) {
-  return (
-    <Layout>
-      <h1>Project Page</h1>
-    </Layout>
-  )
+  const project = data.project
+  // console.log(project.)
+  return <Layout>{project && <Project {...project} />}</Layout>
 }
+
+export const query = graphql`
+  query ProjectTemplateQuery($id: String!) {
+    project: sanityProject(id: { eq: $id }) {
+      id
+      publishedAt
+      title
+      slug {
+        current
+      }
+      _rawBody
+      body {
+        _rawChildren
+      }
+    }
+  }
+`

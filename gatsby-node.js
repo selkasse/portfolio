@@ -74,7 +74,7 @@ async function createProjectPages(graphql, actions) {
       // console.log(edge.node)
       const id = edge.node.id
       const slug = edge.node.slug.current
-      const path = `project/${slug}`
+      const path = `projects/${slug}`
 
       createPage({
         path,

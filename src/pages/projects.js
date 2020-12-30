@@ -1,6 +1,6 @@
 import React from "react"
 import Layout from "../components/layout"
-import { graphql } from "gatsby"
+import { Link, graphql } from "gatsby"
 import Img from "gatsby-image"
 
 export const query = graphql`
@@ -87,9 +87,11 @@ export default function Projects({ data }) {
         </h1>
         <div>
           {projectNodes.edges.map(edge => (
-            <div>
-              <h3>{edge.node.title}</h3>
-              <Img fluid={edge.node.mainImage.asset.fluid} />
+            <div key={edge.node.id}>
+              <Link to={`/projects/${edge.node.slug.current}`}>
+                <h3>{edge.node.title}</h3>
+                <Img fluid={edge.node.mainImage.asset.fluid} />
+              </Link>
             </div>
           ))}
         </div>

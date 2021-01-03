@@ -14,16 +14,16 @@ function Project(props) {
           <br /> <br />
           {_rawExcerpt && <BlockContent blocks={_rawExcerpt || []} />}
           <Img fluid={mainImage.asset.fluid} />
-          <br /> <br />
+          <br />
           <div className={styles.flex}>
             <a className={styles.flexitem} href={github}>
-              Code
+              CODE
             </a>
             <a className={styles.flexitem} href={demo}>
-              Demo
+              DEMO
             </a>
           </div>
-          <br /> <br />
+          <br />
           {_rawBody && <BlockContent blocks={_rawBody || []} />}
         </div>
       </div>

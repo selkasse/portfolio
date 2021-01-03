@@ -41,10 +41,9 @@
   align-items: flex-start;
 }
 
-/* .flexitem { */
-/* align-self: flex-start; */
-/* justify-self: flex-start; */
-/* } */
+.flexitem {
+  font-size: 40px;
+}
 
 .mainContent {
   @nest & a {

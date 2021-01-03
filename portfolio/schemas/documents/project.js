@@ -10,6 +10,17 @@ export default {
       title: "Title",
       type: "string",
     },
+
+    {
+      name: "github",
+      title: "GitHub",
+      type: "string",
+    },
+    {
+      name: "demo",
+      title: "Demo",
+      type: "string",
+    },
     {
       name: "slug",
       title: "Slug",

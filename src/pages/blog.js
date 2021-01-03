@@ -26,8 +26,8 @@ export default function Blog({ data }) {
                   marginBottom: `${rhythm(1 / 4)}`,
                 }}
               >
-                {node.frontmatter.title}{" "}
-                <span style={{ color: "#bbb" }}>- {node.frontmatter.date}</span>
+                {node.frontmatter.title} <br />
+                <span style={{ color: "#bbb" }}>{node.frontmatter.date}</span>
               </h3>
               <p>{node.excerpt}</p>
             </Link>

@@ -34,6 +34,18 @@
   }
 }
 
+.flex {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+/* .flexitem { */
+/* align-self: flex-start; */
+/* justify-self: flex-start; */
+/* } */
+
 .mainContent {
   @nest & a {
     color: var(--color-accent);

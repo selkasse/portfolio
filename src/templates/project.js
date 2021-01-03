@@ -15,10 +15,13 @@ export const query = graphql`
       id
       publishedAt
       title
+      github
+      demo
       slug {
         current
       }
       _rawBody
+      _rawExcerpt
       body {
         _rawChildren
       }

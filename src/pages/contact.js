@@ -9,10 +9,13 @@ export default function Contact() {
           display: `inline-block`,
         }}
       >
-        I'd love to talk! Email me at the address below
+        Contact
       </h1>
+      <br />
+      <br />
       <p>
-        <a href="mailto:me@example.com">me@example.com</a>
+        Want to work together? Have a question? Drop me a line at{" "}
+        <a href="mailto:sharif@sharifelkassed.com">sharif@sharifelkassed.com</a>
       </p>
     </Layout>
   )

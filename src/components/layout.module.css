@@ -13,3 +13,36 @@ kbd {
 code {
   background: lightgray;
 }
+
+body {
+  background-color: #0e1c36;
+  color: #ffede1;
+}
+
+a {
+  color: #afcbff;
+  background-image: none;
+  text-shadow: none;
+}
+
+a:hover {
+  border-bottom: 2px solid #afcbff;
+}
+
+h1 {
+  color: #d7f9ff;
+}
+
+header a h3 {
+  color: #f9fbf2;
+  background-color: none;
+  margin-top: none;
+}
+
+/* .homelink {
+  color: #f9fbf2;
+} */
+
+/* h3 a:hover {
+  border-bottom: 2px solid red;
+} */

@@ -11,7 +11,7 @@ function Project(props) {
       <div className={styles.grid}>
         <div className={styles.mainContent}>
           <h1>{title} </h1>
-          <br /> <br />
+          <br />
           {_rawExcerpt && <BlockContent blocks={_rawExcerpt || []} />}
           <Img fluid={mainImage.asset.fluid} />
           <br />

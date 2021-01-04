@@ -65,7 +65,7 @@ export default function Home() {
       <br />
       <p>
         To see my skills in action, have a look at my{" "}
-        <Link to={"/projects"}>projects page</Link>
+        <Link to={"/projects"}>projects page</Link>.
       </p>
     </Layout>
   )

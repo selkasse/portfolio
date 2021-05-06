@@ -19,8 +19,6 @@ You've heard it before: You can't get far without the basics. CSS is no exceptio
 
 Not understanding what these things were threw me off in a major way when I was trying to build an entire layout. I could get away with not knowing them if I was only building a very small part of a UI, but things started to get hairy as I added more markup and styling.
 
-That being said, I still don't understand all of these things in full. I learned enough about them to have a decent idea of how each of them will influence my layout, and it has made basic troubleshooting much easier.
-
 # Structure
 
 My CSS files used to be a mess of classes. It's easy to do if you're not sure how to structure your styles in such a way that the 'cascade' works in your favor.

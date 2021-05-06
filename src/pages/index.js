@@ -36,14 +36,6 @@ export default function Home() {
         I've since moved on to <Link to={"/projects"}>breaking things</Link> on
         the web :)
       </p>
-      <p>
-        I've been coding since college, but about a year ago, I started feeling
-        like I needed to explore other areas of my craft.
-      </p>
-      <p>
-        I became interested in web development. I started learning JavaScript,
-        realized I loved it, and never looked back.
-      </p>
       <p>Some skills I've picked up along the way:</p>
       <div className={styles.skills}>
         <FontAwesomeIcon icon={faHtml5} size="3x" />
